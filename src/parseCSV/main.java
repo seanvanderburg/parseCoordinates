@@ -54,7 +54,7 @@ public class main {
 		csvReader = new BufferedReader(
 				new FileReader(
 						new File(
-								"C:/Users/seanv_000/Desktop/rotterdamopendata_hoogtebestandtotaal_oost.csv")));
+								"ADD CSV FILE LOCATION")));
 
 		csvReader.readLine();
 		csvReader.readLine();
