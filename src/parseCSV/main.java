@@ -30,7 +30,7 @@ public class main {
 			System.out.println("CSV parsing...");
 			dataSubSet = parseCSV();
 			System.out.println("CSV writing...");
-			generateCSVFile("C:/Users/seanv_000/Desktop/dataSubset.csv");
+			generateCSVFile("OUTPUT LOCATION");
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
